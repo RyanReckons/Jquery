@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML5</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+  </script>
+  <![endif]-->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>HTML5 Skeleton</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2 id="section-header">Jquery Effects</h2>
+    <article>
+      <h2>Hide / Show</h2>
+      <div>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <p id="first">If you click on the "Hide" button, I will disappear.</p>
+      </div>
+    </article>
+
+    <article>
+      <h2>Toggle</h2>
+      <div>
+        <button id="tog">Toggle</button>
+
+        <p class="ptog">This is a paragraph with little content.</p>
+        <p class="ptog">This is another small paragraph.</p>
+      </div>
+    </article>
+
+    <article>
+      <h2>Fade In</h2>
+      <div>
+        <p>Demonstrate fadeIn() with different parameters.</p>
+
+        <button id="fadeIn">Click to fade in boxes</button><br><br>
+
+        <div id="fin1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+        <div id="fin2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+        <div id="fin3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Fade Out</h2>
+      <div>
+        <p>Demonstrate fadeOut() with different parameters.</p>
+
+        <button id="fadeOut">Click to fade out boxes</button><br><br>
+
+        <div id="fout1" style="width:80px;height:80px;background-color:red;"></div><br>
+        <div id="fout2" style="width:80px;height:80px;background-color:green;"></div><br>
+        <div id="fout3" style="width:80px;height:80px;background-color:blue;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Fade Toggle</h2>
+      <div>
+        <p>Demonstrate fadeToggle() with different speed parameters.</p>
+
+        <button id="fadeTog">Click to fade in/out boxes</button><br><br>
+
+        <div id="ftog1" style="width:80px;height:80px;background-color:red;"></div>
+        <br>
+        <div id="ftog2" style="width:80px;height:80px;background-color:green;"></div>
+        <br>
+        <div id="ftog3" style="width:80px;height:80px;background-color:blue;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Fade To</h2>
+      <div>
+        <p>Demonstrate fadeTo() with different parameters.</p>
+
+        <button id="fadeTo">Click to fade boxes</button><br><br>
+
+        <div id="fto1" style="width:80px;height:80px;background-color:red;"></div><br>
+        <div id="fto2" style="width:80px;height:80px;background-color:green;"></div><br>
+        <div id="fto3" style="width:80px;height:80px;background-color:blue;"></div>
+      </div>
+    </article>
+    
+    <article>
+      <h2>Slide Down</h2>
+      <div>
+        <div id="slideDwn">Click to slide down panel</div>
+        <div id="slide1">Hello world!</div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Slide Up</h2>
+      <div>
+        <div id="slideUp">Click to slide Up panel</div>
+        <div id="slide2">Hello world!</div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Slide Toggle</h2>
+      <div>
+        <div id="slideTog">Click to Reckon!</div>
+        <div id="slide3">You Reckon!</div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Right</h2>
+      <div>
+        <button id="animate">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box1" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+      </div>
+    </article>
+    
+    <article>
+      <h2>Animate Multiple</h2>
+      <div>
+        <button id="animate2">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box2" style="background:#98bf21;height:100px;width:100px;position:relative;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Relative</h2>
+      <div>
+        <button id="animate3">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box3" style="background:#98bf21;height:100px;width:100px;position:relative;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Pre Defined</h2>
+      <div>
+        <button id="animate4">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box4" style="background:#98bf21;height:100px;width:100px;position:relative;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Queue Functionality</h2>
+      <div>
+        <button id="animate5">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box5" style="background:#98bf21;height:100px;width:100px;position:relative;"></div>
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Queue Functionality2</h2>
+      <div>
+        <button id="animate6">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box6" style="background:#98bf21;height:100px;width:200px;position:absolute;">HELLO</div>
+
+      </div>
+    </article>
+
+    <article>
+      <h2>Animate Queue Functionality3</h2>
+      <div>
+        <button id="animate7">Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div id="Box7" style="background:#98bf21;height:100px;width:200px;position:relative;">HELLO</div>
+
+      </div>
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <article>
+      <h2>Article 2</h2>
+      <div>
+        <p>Hover over button for surprise!</p>
+        <button id="btn">Button</button>
+        <p id="p1"></p>
+        <!-- <button id="show">Show</button> -->
+      </div>
+    </article>
+
+    <article>
+      <h2>Article 3</h2>
+      <div>
+        <p id="test1">This is a paragraph.</p>
+        <p id="test2">This is another paragraph.</p>
+
+        <p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+
+        <button id="btn1">Set Text 1</button>
+        <button id="btn2">Set Text 2</button>
+        <button id="btn3">Set Value 3</button>
+      </div>
+    </article>
+    <article>
+      <h2>Article 4</h2>
+      <div>
+        <p id="test4">Hover over button 4 to change me to a pickle!</p>
+        <p id="test5">This is another paragraph.</p>
+
+        <p>Input field: <input type="text" id="test6" value=""></p>
+
+        <button id="btn4">Set Text 4</button>
+        <button id="btn5">Set text 5</button>
+        <button id="btn6">Set Value 6</button>
+      </div>
+    </article>
+
+    <article>
+      <h2>Article 5</h2>
+      <div>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+      and the most populous metropolitan area in the world.</div>
+    </article>
+
+    <article>
+      <h2>Article 5</h2>
+      <div>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+      and the most populous metropolitan area in the world.</div>
+    </article>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2014 W3Schools. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
