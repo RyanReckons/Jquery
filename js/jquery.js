@@ -124,11 +124,65 @@ $(document).ready(function(){
         div.animate({fontSize: '5em'}, "slow");
     });
 });
+/* STOP METHOD */
+$(document).ready(function(){
+    $("#stpflip").click(function(){
+        $("#stppanel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#stppanel").stop();
+    });
+});
+/* Callback */
+$(document).ready(function(){
+    $("#callback").click(function(){ 
+        $("#callb").hide("slow", function(){
+            alert("The paragraph is now hidden");
+        });
+    });
+});
+/* Without Callback */
+$(document).ready(function(){
+    $("#wocallback").click(function(){
+        $("#wocallb").hide(1000);
+        alert("The paragraph is now hidden");
+    });
+});
+/* Chaining */
+$(document).ready(function(){
+    $("#chaining").click(function(){
+        $("#chain1").css("color", "red").slideUp(2000).slideDown(2000);
+    });
+});
+/* Get */
+$(document).ready(function(){
+    $("#get1").click(function(){
+        alert("Text: " + $("#get").text());
+    });
+    $("#get2").click(function(){
+        alert("HTML: " + $("#get").html());
+    });
+}); 
+/* Get Value*/
+$(document).ready(function(){
+    $("#get-value").click(function(){
+        alert("Value: " + $("#getv").val());
+    });
+});
+/* Get Atributes */
+$(document).ready(function(){
+    $("#getAt").click(function(){
+        alert($("#w3s").attr("href"));
+    });
+});
 
 
 
 
 
+
+
+/*
 $(document).ready(function(){
     $("#btn").mouseenter(function(){
         $("#p1").text('Surprise!!!');
@@ -171,7 +225,7 @@ $(document).ready(function(){
     $("#btn4").mouseleave(function(){
         console.log($("#test4").text('Hover over button 4 to change me to a pickle!'));
     });
-});
+}); */
 
 
 /*$(document).ready(function(){

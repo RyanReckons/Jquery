@@ -56,7 +56,26 @@
     color:blue;
     font-size: 30px;
   }
+  /* Stop Method */
+  #stop {position:relative;margin-left: -280px;}
+  #stpflip {width:280px;height:40px;position:relative;margin-top: 20px;cursor: pointer;}
+  #stppanel, #stpflip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
 
+  #stppanel {
+      padding: 50px;
+      display: none;
+      width:280px;
+  }
+ /* Without Callback */
+  
 
 }
 @media only screen and (max-width: 400px){
